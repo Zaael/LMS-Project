@@ -34,7 +34,7 @@ CONSTRAINT fkDisciplina_IdCoord FOREIGN KEY (IdCoordenador) REFERENCES Coordenad
 CREATE TABLE SolicitacaoMatricula 
 (
 ID TINYINT IDENTITY,
-IdAluno TINYINT NOT NULL, 
+IdAluno INT NOT NULL, 
 IdDisciplinaOfertada TINYINT NOT NULL, 
 DtSolicitacao DATE NOT NULL CONSTRAINT dfDtSolicitacao DEFAULT (GETDATE()), 
 IdCoordenador TINYINT, 
