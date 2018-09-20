@@ -1,0 +1,55 @@
+﻿/* ROWS do conteudo */
+.content .mainContent .productRow {
+	overflow: auto;
+
+	color: rgba(146,146,146,1.00);
+}
+/* informação do conteudo */
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 40%;
+}
+
+/* Informação do conteudo */
+.productRow .productInfo .imgcurso{
+	width: 170px;
+}
+
+.productRow .productInfo .desc {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 22px;
+	position: relative;
+    top: -20px;
+
+}
+/* div que engloba os article*/
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 14px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+	white-space: pre-wrap;
+}
+/* botão */
+.productRow .productInfo .Button {
+	position: relative;
+	top: -48px;
+	width: 84%;
+	background-color: rgba(50,17,144,1.00);
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+	border-style:double;   
+    
+	border-image: linear-gradient(45deg, #ff0, #f0f, #f00, #00f, #0f0);
+	border-image-slice: 1;
+	box-shadow: 0 15px 25px rgba(0,0,0,.2); 
+}
