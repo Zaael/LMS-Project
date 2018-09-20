@@ -1,0 +1,153 @@
+.a1{
+    position: absolute; 
+	left: 620px; /* posiciona a 90px para a esquerda */ 
+	top: 100px;
+    font-style: italic;
+    font-size: 30px;
+    display: block;
+    padding: 20px;
+    background: #011636;
+    text-align: center;
+    color: white;
+}
+.linha{
+display: block;
+padding: 20px;
+background: #011636;
+text-align: center;
+color: white;
+}
+.a2{
+    position: absolute; 
+	left: 755px; /* posiciona a 90px para a esquerda */ 
+	top: 415px;
+  
+    
+    
+
+    
+}
+.borda{
+    border-tOP-width: 1px;
+    border-tOP-style: solid;
+    border-TOP-color: #000;
+
+}
+.localization{
+    position: absolute; 
+	left: 400px; /* posiciona a 90px para a esquerda */ 
+    top: 450px;
+
+
+}
+
+.bordab{
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #000;
+    border-tOP-width: 1px;
+    border-tOP-style: solid;
+    border-TOP-color: #000;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #000;
+
+
+}
+.bordab1{
+    border-tOP-width: 1px;
+    border-tOP-style: solid;
+    border-TOP-color: #000;
+
+}
+.tamanho {
+    width: 500px;
+    height: 200px;
+    overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
+}
+.a3{
+    position: absolute; 
+	left: 900px; /* posiciona a 90px para a esquerda */ 
+	top: 605px;; /* posiciona a 90px para a esquerda */ 
+	
+
+}
+.localization{  
+     border: 1px solid black;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    position: absolute;
+    padding-top: 5px;
+    padding-right: 30px;
+    left: 335;
+    top: 410;
+}
+.localization:hover{
+    background: #011636;
+    color:white;
+    
+     
+    }
+.localization2{
+    border: 1px solid black;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-left: 190px;
+    position: absolute;
+    padding-top: 5px;
+    padding-right: 30px;
+    position: absolute; 
+	left: 340px; /* posiciona a 90px para a esquerda */ 
+    top: 605px;
+}
+
+.localization2:hover{
+    background: #011636;
+    color:white;
+
+
+}
+
+.localization3:hover{
+    background: #011636;
+    color:white;
+}
+.a4{
+position: absolute;
+left: 900px;
+top:840px;
+}
+.localization3{
+    border: 1px solid black;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-left: 75px;
+    position: absolute;
+    padding-top: 5px;
+    padding-right: 20px;
+    position: absolute; 
+	left: 340px; /* posiciona a 90px para a esquerda */ 
+    top: 840px;
+}
+.localization4{
+
+    position: absolute; 
+	left: 400px; /* posiciona a 90px para a esquerda */ 
+    top: 1100px;
+
+}
+.localization5{
+    position: absolute; 
+	left: 470px; /* posiciona a 90px para a esquerda */ 
+    top: 1100px;
+
+    
+}
+.localization6{
+    position: absolute; 
+	left: 500px; /* posiciona a 90px para a esquerda */ 
+    top: 1100px;
+
+
+}
