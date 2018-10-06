@@ -5,7 +5,7 @@ a:hover {
 }
 /*header*/
 body {
-	background-color: rgb(114, 110, 110);
+	background-color: rgb(192, 192, 192);
 }
 
 header {
@@ -24,7 +24,7 @@ header {
 	width: 250px;
 	
 	text-align: center;
-	background-color: rgba(0,0,0,1.00);
+	background-color: rgb(192, 192, 192);
 }
 /* Links  header */
 .headerLinks {
@@ -35,7 +35,7 @@ header {
 	
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: rgba(0,0,0,1.00);
+	background-color: rgb(192, 192, 192);
 }
 
 .headerLinksInf a{
@@ -57,17 +57,31 @@ header {
 	padding-left: 66px;
 	font-size: 14px;
 }
+
+.headerLinks img{
+	border-radius: 5px;
+  	max-width: 30px;
+  	max-height: 30px;
+}
 /* Offer texto banner*/
 .offer {
-	background-image: url(../images/banner.jpg);
+	/* background-image: url(../images/banner.jpg); */
 	background-repeat: round;
 	font-family: 'Montserrat', sans-serif;
 	clear: both;
-	background-color: rgba(246,246,246,1.00);
+	background-color: rgb(192, 192, 192);
 	color: rgba(146,146,146,1.00);
-	padding-left: 115px;
+	padding-left: 5px;
 	padding-top: 57px;
 	padding-bottom: 57px;
+}
+.offer article{
+	width: 50%;
+	float: left;	
+}
+.offer h2{
+	text-align: center;
+	font-size: 30px;
 }
 /* Main content  */
 .content {
@@ -84,7 +98,7 @@ header {
 	padding-left: 3%;
 	padding-right: 3%;
 	text-align: center;
-	background-color: rgb(25, 16, 78);
+	background-color: rgb(8, 4, 34);
 	padding-top: 36px;
 	height: 784px;
 }
@@ -123,7 +137,7 @@ header {
 	height: 230px;
 	clear: both;
 	overflow: auto;
-	background-color: black;
+	background-color: rgb(8, 4, 34); 
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
@@ -133,6 +147,8 @@ header {
 	text-align: center;
 	padding-bottom: 22px;
 	padding-right: 22px;
+	margin-top: 4px;
+	font-size: 14px;
 }
 /*Each footer content */
 .mainWrapper footer div {
@@ -149,6 +165,11 @@ footer div a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
+}
+footer img{
+	border-radius: 5px;
+  	max-width: 30px;
+  	max-height: 30px;
 }
 /* Product's images in catalog */
 .productInfo div img {
@@ -375,4 +396,4 @@ header .headerLinks a {
 	text-align: center;
 	width: 100%;
 	padding-left: 0px;
-}
+}}
